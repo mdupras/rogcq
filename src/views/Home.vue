@@ -11,10 +11,8 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col>
-          <v-row>
-            <v-img height="400" width="400" :src="require('../assets/baby.gif')" />
-          </v-row>
+        <v-col class="flex justify-center align-center">
+          <v-img height="400" width="400" :src="require('../assets/baby.gif')" />
         </v-col>
       </v-row>
     </v-col>
