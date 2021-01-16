@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-row class="text-center">
+    <v-col>
+      <h1>Welcome to ROGCQ</h1>
+      <v-row>
+        <v-col>
+          <v-img height="400" width="400" :src="require('../assets/under-construction.gif')" />
+        </v-col>
+        <v-col>
+          <v-img height="400" width="400" :src="require('../assets/under-construction.gif')" />
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-row>
+            <v-img height="400" width="400" :src="require('../assets/baby.gif')" />
+          </v-row>
+        </v-col>
+      </v-row>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  name: "Home",
+  data() {
+    return {};
   }
-}
+};
 </script>
